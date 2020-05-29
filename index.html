@@ -145,42 +145,42 @@
             </div>
         </div>
 
-        <form class="form was-validated">
+        <form class="form was-validated" action="./action.php" method="post"> 
             <div class="container">
                 <h3 class="form__camp"> Formulário</h3>
                 <div class="form-row">
                     <div class="col-md-4 form__camp">
                         <label for="inputName" class="form__camp">
-                            <input type="name" class="form-control form__camp" id="inputName" placeholder="Nome"
+                            <input type="name" class="form-control form__camp" id="inputName" name="nome" placeholder="Nome"
                                 required>
                         </label>
                     </div>
                     <div class=" col-md-4 form__camp">
                         <label for="inputEmail" class="form__camp">
-                            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                            <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Email" required>
                         </label>
                     </div>
                     <div class=" col-md-4 form__camp">
                         <label for="inputTel" class="form__camp">
-                            <input type="number" class="form-control" id="inputTel" placeholder="Telefone" required>
+                            <input type="number" class="form-control" id="inputTel" name="telefone" placeholder="Telefone" required>
                         </label>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="col-md-6 form__camp">
                         <label for="inputText" class="form__camp">
-                            <input type="text" class="form-control" id="inputText" placeholder="Assunto" required>
+                            <input type="text" class="form-control" id="inputText" name="assunto" placeholder="Assunto" required>
                         </label>
                     </div>
                     <div class="col-md-6 form__camp">
                         <label for="inputAdress" class="form__camp">
-                            <input type="adress" class="form-control" id="inputAdress" placeholder="Cidade" required>
+                            <input type="adress" class="form-control" id="inputAdress" name="endereco" placeholder="Cidade" required>
                         </label>
                     </div>
                 </div>
                 <div class="form-group form__camp">
                     <label for="inputMessage" class="form__camp">
-                        <textarea class="form-control is-invalid" id="inputMessage" placeholder="Mensagem"
+                        <textarea class="form-control is-invalid" id="inputMessage" name="mensagem" placeholder="Mensagem"
                             required></textarea>
                     </label>
                 </div>
