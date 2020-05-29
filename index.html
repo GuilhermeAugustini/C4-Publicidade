@@ -98,44 +98,50 @@
 
     <form class="form was-validated">
         <div class="container">
-        <h3>Formulário</h3>
+        <h3 class="form__camp"> Formulário</h3>
         <div class="form-row">
           <div class="col-md-4 form__camp">
-            <label for="inputName">
+            <label for="inputName" class="form__camp">
             <input type="name" class="form-control form__camp" id="inputName" placeholder="Nome" required>
             </label>
           </div>
           <div class=" col-md-4 form__camp">
-            <label for="inputEmail">
+            <label for="inputEmail" class="form__camp">
             <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
             </label>
           </div>
           <div class=" col-md-4 form__camp">
-            <label for="inputTel">
+            <label for="inputTel" class="form__camp">
             <input type="number" class="form-control" id="inputTel" placeholder="Telefone" required>
             </label>
           </div>
         </div>
         <div class="form-row">
-            <div class=" form__camp">
-                <label for="inputText">
+            <div class="col-md-6 form__camp">
+                <label for="inputText" class="form__camp">
                 <input type="text" class="form-control" id="inputText" placeholder="Assunto" required>
                 </label>
               </div>
-              <div class=" form__camp">
-                <label for="inputAdress">
+              <div class="col-md-6 form__camp">
+                <label for="inputAdress" class="form__camp">
                 <input type="adress" class="form-control" id="inputAdress" placeholder="Cidade" required>
                 </label>
               </div>
         </div>
         <div class="form-group form__camp">
-            <label for="inputMessage">
+            <label for="inputMessage" class="form__camp">
     <textarea class="form-control is-invalid" id="inputMessage" placeholder="Mensagem" required></textarea>
             </label>
         </div>
+        <div class="form__camp">
+        <button class="btn btn-primary form__button" type="submit">Enviar</button>
+    </div>
     </div>
     </form>
+    
     </main>
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>

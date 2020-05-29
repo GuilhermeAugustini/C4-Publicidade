@@ -2,7 +2,6 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    outline: red solid 1px !important;
 }
 
 img {
@@ -98,12 +97,18 @@ img {
     margin: 50px auto;
 }
 
-
+.form-control:invalid{
+    border:1px solid #ced4da !important;
+}
 .form__camp{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+.form__button{
+    background-color: ;
 }
 
 @media (max-width: 480px){
