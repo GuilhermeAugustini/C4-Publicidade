@@ -106,6 +106,7 @@ a:hover{
 .form-control:invalid{
     border:1px solid #ced4da !important;
 }
+
 .form__camp{
     display: flex;
     justify-content: center;
@@ -114,7 +115,8 @@ a:hover{
 }
 
 .form__button{
-    background-color: ;
+    background-color: #7700b3;
+    width: 120px;
 }
 
 @media (max-width: 480px){
@@ -149,5 +151,4 @@ a:hover{
         height: 110px;
         padding: 5px;
     }
-
 }
