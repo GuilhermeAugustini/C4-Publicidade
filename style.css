@@ -145,7 +145,7 @@ a:hover{
         height:40px;
     }
     .button{
-        order: 2;
+        order: 0;
     }
     .slick__fotos{
         height: 110px;

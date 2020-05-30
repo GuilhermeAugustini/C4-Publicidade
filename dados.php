@@ -12,4 +12,7 @@
     echo "Assunto: " .$assunto;
     echo "Endereço: " .$endereco
     echo "Mensagem: " .$mensagem ;
+
+    $headers = "MIME-Version: 1.1\r\n";
+    $headers .= "Content-type: text/html; charset=utf-8\r\n";
 ?>
