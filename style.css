@@ -96,6 +96,7 @@ a:hover{
 .slick__color{
     width: 100%;
     background-color: #00b300;
+    border-radius: 8%;
 }
 
 .form{
@@ -129,6 +130,8 @@ a:hover{
         color: #009900;
     }
 
+
+
     .button__menu{
         padding: 5px;
         margin:0;
@@ -151,4 +154,6 @@ a:hover{
         height: 110px;
         padding: 5px;
     }
+
+
 }
